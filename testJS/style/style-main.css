@@ -1,0 +1,75 @@
+.main{
+    margin: 0 auto;
+}
+label {
+    color: grey;
+}
+
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+#list {
+    width: 58%;
+    border: 1px solid grey;
+}
+
+#btn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#unite {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+ul {
+    margin-top: 0;
+}
+
+#pairNameValue {
+    width: 60%;
+}
+
+#input {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+}
+
+#head-paragraph {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    gap: 0;
+    color: grey;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+span {
+    font-weight: bold;
+}
+
+#deleteItem {
+    margin-top: 20px;
+}
+
+.list-item {
+    cursor: pointer;
+}
+.list-item.selected {
+    background-color: pink;
+    text-decoration: line-through;
+}
+

@@ -1,0 +1,29 @@
+@media screen and (max-width: 480px) {
+    .main {
+        margin: 0 auto;
+    }
+
+    #input {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #pairNameValue {
+        width: 90%;
+    }
+
+    #addItem {
+        width: 20%;
+    }
+
+    #unite {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    #list {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+}
